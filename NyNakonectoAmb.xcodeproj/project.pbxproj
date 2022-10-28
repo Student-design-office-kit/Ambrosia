@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D272E8CA4D290083D1532DC /* Pods_NyNakonectoAmb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445A20AE778603CA4F256283 /* Pods_NyNakonectoAmb.framework */; };
+		A715CB0628DDAE9800D54F8E /* ambrosiaTrue.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A715CB0528DDAE9800D54F8E /* ambrosiaTrue.pdf */; };
+		A71DCC1828FEE83A00DCBA85 /* CustomMarkerAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71DCC1628FEE83A00DCBA85 /* CustomMarkerAlertViewController.swift */; };
+		A71DCC1928FEE83A00DCBA85 /* CustomMarkerAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A71DCC1728FEE83A00DCBA85 /* CustomMarkerAlertViewController.xib */; };
+		A71F22102873297700D6A753 /* MarkerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71F220F2873297700D6A753 /* MarkerViewController.swift */; };
 		A73740F227D0D4390012F5B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73740F127D0D4390012F5B1 /* AppDelegate.swift */; };
 		A73740F427D0D4390012F5B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73740F327D0D4390012F5B1 /* SceneDelegate.swift */; };
-		A73740F627D0D4390012F5B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73740F527D0D4390012F5B1 /* ViewController.swift */; };
+		A73740F627D0D4390012F5B1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73740F527D0D4390012F5B1 /* HomeViewController.swift */; };
 		A73740F927D0D4390012F5B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73740F727D0D4390012F5B1 /* Main.storyboard */; };
-		A73740FB27D0D43A0012F5B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73740FA27D0D43A0012F5B1 /* Assets.xcassets */; };
 		A73740FE27D0D43A0012F5B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73740FC27D0D43A0012F5B1 /* LaunchScreen.storyboard */; };
+		A737410C27D0D5F50012F5B1 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737410B27D0D5F50012F5B1 /* PhotoViewController.swift */; };
+		A737411027D0D61B0012F5B1 /* GeoAcceptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737410F27D0D61B0012F5B1 /* GeoAcceptionViewController.swift */; };
+		A749ABAB286332E700EA51CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73740FA27D0D43A0012F5B1 /* Assets.xcassets */; };
+		A79C33CF28EC626D0019E3AC /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79C33CE28EC626D0019E3AC /* Checkbox.swift */; };
+		A7CE49B428B90D2400279441 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CE49B328B90D2400279441 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		445A20AE778603CA4F256283 /* Pods_NyNakonectoAmb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NyNakonectoAmb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A715CB0528DDAE9800D54F8E /* ambrosiaTrue.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ambrosiaTrue.pdf; sourceTree = "<group>"; };
+		A71DCC1628FEE83A00DCBA85 /* CustomMarkerAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMarkerAlertViewController.swift; sourceTree = "<group>"; };
+		A71DCC1728FEE83A00DCBA85 /* CustomMarkerAlertViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomMarkerAlertViewController.xib; sourceTree = "<group>"; };
+		A71F220F2873297700D6A753 /* MarkerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerViewController.swift; sourceTree = "<group>"; };
 		A73740EE27D0D4390012F5B1 /* NyNakonectoAmb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NyNakonectoAmb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73740F127D0D4390012F5B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A73740F327D0D4390012F5B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A73740F527D0D4390012F5B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A73740F527D0D4390012F5B1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A73740F827D0D4390012F5B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A73740FA27D0D43A0012F5B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A73740FD27D0D43A0012F5B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A73740FF27D0D43A0012F5B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A737410B27D0D5F50012F5B1 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		A737410F27D0D61B0012F5B1 /* GeoAcceptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoAcceptionViewController.swift; sourceTree = "<group>"; };
+		A79C33CE28EC626D0019E3AC /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		A7CE49B328B90D2400279441 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		C17612192B2A5C614451AC5B /* Pods-NyNakonectoAmb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NyNakonectoAmb.release.xcconfig"; path = "Target Support Files/Pods-NyNakonectoAmb/Pods-NyNakonectoAmb.release.xcconfig"; sourceTree = "<group>"; };
+		D9C2ABF1CC74BA6C34FD0B53 /* Pods-NyNakonectoAmb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NyNakonectoAmb.debug.xcconfig"; path = "Target Support Files/Pods-NyNakonectoAmb/Pods-NyNakonectoAmb.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D272E8CA4D290083D1532DC /* Pods_NyNakonectoAmb.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				A73740F027D0D4390012F5B1 /* NyNakonectoAmb */,
 				A73740EF27D0D4390012F5B1 /* Products */,
+				BB7D417CFF1B41E7C423A8C1 /* Pods */,
+				EACD65E3A8E644938B988284 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,88 @@
 		A73740F027D0D4390012F5B1 /* NyNakonectoAmb */ = {
 			isa = PBXGroup;
 			children = (
-				A73740F127D0D4390012F5B1 /* AppDelegate.swift */,
-				A73740F327D0D4390012F5B1 /* SceneDelegate.swift */,
-				A73740F527D0D4390012F5B1 /* ViewController.swift */,
-				A73740F727D0D4390012F5B1 /* Main.storyboard */,
-				A73740FA27D0D43A0012F5B1 /* Assets.xcassets */,
-				A73740FC27D0D43A0012F5B1 /* LaunchScreen.storyboard */,
+				A715CB0528DDAE9800D54F8E /* ambrosiaTrue.pdf */,
+				A737410527D0D4B10012F5B1 /* Resources */,
+				A737410727D0D4E20012F5B1 /* Views */,
 				A73740FF27D0D43A0012F5B1 /* Info.plist */,
 			);
 			path = NyNakonectoAmb;
+			sourceTree = "<group>";
+		};
+		A737410527D0D4B10012F5B1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A73740F127D0D4390012F5B1 /* AppDelegate.swift */,
+				A73740F327D0D4390012F5B1 /* SceneDelegate.swift */,
+				A737411127D0D6270012F5B1 /* Adding */,
+				A737410627D0D4CA0012F5B1 /* Controllers */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A737410627D0D4CA0012F5B1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A73740F527D0D4390012F5B1 /* HomeViewController.swift */,
+				A7CE49B328B90D2400279441 /* InfoViewController.swift */,
+				A737411227D0D6310012F5B1 /* Checking */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A737410727D0D4E20012F5B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A73740FA27D0D43A0012F5B1 /* Assets.xcassets */,
+				A737410827D0D4F50012F5B1 /* Storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A737410827D0D4F50012F5B1 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A73740F727D0D4390012F5B1 /* Main.storyboard */,
+				A73740FC27D0D43A0012F5B1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		A737411127D0D6270012F5B1 /* Adding */ = {
+			isa = PBXGroup;
+			children = (
+				A79C33CE28EC626D0019E3AC /* Checkbox.swift */,
+				A71DCC1728FEE83A00DCBA85 /* CustomMarkerAlertViewController.xib */,
+				A71DCC1628FEE83A00DCBA85 /* CustomMarkerAlertViewController.swift */,
+			);
+			path = Adding;
+			sourceTree = "<group>";
+		};
+		A737411227D0D6310012F5B1 /* Checking */ = {
+			isa = PBXGroup;
+			children = (
+				A737410B27D0D5F50012F5B1 /* PhotoViewController.swift */,
+				A737410F27D0D61B0012F5B1 /* GeoAcceptionViewController.swift */,
+				A71F220F2873297700D6A753 /* MarkerViewController.swift */,
+			);
+			path = Checking;
+			sourceTree = "<group>";
+		};
+		BB7D417CFF1B41E7C423A8C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9C2ABF1CC74BA6C34FD0B53 /* Pods-NyNakonectoAmb.debug.xcconfig */,
+				C17612192B2A5C614451AC5B /* Pods-NyNakonectoAmb.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EACD65E3A8E644938B988284 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				445A20AE778603CA4F256283 /* Pods_NyNakonectoAmb.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A737410227D0D43A0012F5B1 /* Build configuration list for PBXNativeTarget "NyNakonectoAmb" */;
 			buildPhases = (
+				C59312F6794DDFC65F055BEC /* [CP] Check Pods Manifest.lock */,
 				A73740EA27D0D4390012F5B1 /* Sources */,
 				A73740EB27D0D4390012F5B1 /* Frameworks */,
 				A73740EC27D0D4390012F5B1 /* Resources */,
+				FD2E2817843F771660D33CA1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -103,7 +201,7 @@
 				};
 			};
 			buildConfigurationList = A73740E927D0D4390012F5B1 /* Build configuration list for PBXProject "NyNakonectoAmb" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -126,20 +224,70 @@
 			buildActionMask = 2147483647;
 			files = (
 				A73740FE27D0D43A0012F5B1 /* LaunchScreen.storyboard in Resources */,
-				A73740FB27D0D43A0012F5B1 /* Assets.xcassets in Resources */,
+				A749ABAB286332E700EA51CC /* Assets.xcassets in Resources */,
+				A71DCC1928FEE83A00DCBA85 /* CustomMarkerAlertViewController.xib in Resources */,
+				A715CB0628DDAE9800D54F8E /* ambrosiaTrue.pdf in Resources */,
 				A73740F927D0D4390012F5B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C59312F6794DDFC65F055BEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NyNakonectoAmb-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD2E2817843F771660D33CA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NyNakonectoAmb/Pods-NyNakonectoAmb-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NyNakonectoAmb/Pods-NyNakonectoAmb-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NyNakonectoAmb/Pods-NyNakonectoAmb-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A73740EA27D0D4390012F5B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A73740F627D0D4390012F5B1 /* ViewController.swift in Sources */,
+				A79C33CF28EC626D0019E3AC /* Checkbox.swift in Sources */,
+				A737411027D0D61B0012F5B1 /* GeoAcceptionViewController.swift in Sources */,
+				A73740F627D0D4390012F5B1 /* HomeViewController.swift in Sources */,
+				A71F22102873297700D6A753 /* MarkerViewController.swift in Sources */,
+				A737410C27D0D5F50012F5B1 /* PhotoViewController.swift in Sources */,
+				A7CE49B428B90D2400279441 /* InfoViewController.swift in Sources */,
 				A73740F227D0D4390012F5B1 /* AppDelegate.swift in Sources */,
+				A71DCC1828FEE83A00DCBA85 /* CustomMarkerAlertViewController.swift in Sources */,
 				A73740F427D0D4390012F5B1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +432,7 @@
 		};
 		A737410327D0D43A0012F5B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C2ABF1CC74BA6C34FD0B53 /* Pods-NyNakonectoAmb.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,26 +441,34 @@
 				DEVELOPMENT_TEAM = 4923GA7LPV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NyNakonectoAmb/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Амброзия";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Пожалуйста, дайте этому приложению доступ к вашей камере, чтобы Вы могли сфотографировать амброзию.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Пожалуйста, разрешите этому приложению использовать ваше местоположение для того, чтобы мы могли отметить амброзию.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "To show your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Пожалуйста, разрешите этому приложению использовать ваше местоположение для того, чтобы мы могли отметить амброзию.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Разрешите этому приложению сохранять фото на вашем устройстве";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = gen.NyNakonectoAmb;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = gen.TagProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A737410427D0D43A0012F5B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C17612192B2A5C614451AC5B /* Pods-NyNakonectoAmb.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,21 +477,28 @@
 				DEVELOPMENT_TEAM = 4923GA7LPV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NyNakonectoAmb/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Амброзия";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Пожалуйста, дайте этому приложению доступ к вашей камере, чтобы Вы могли сфотографировать амброзию.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Пожалуйста, разрешите этому приложению использовать ваше местоположение для того, чтобы мы могли отметить амброзию.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "To show your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Пожалуйста, разрешите этому приложению использовать ваше местоположение для того, чтобы мы могли отметить амброзию.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Разрешите этому приложению сохранять фото на вашем устройстве";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = gen.NyNakonectoAmb;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = gen.TagProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
