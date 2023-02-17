@@ -1,0 +1,6 @@
+framework module Pods_NyNakonectoAmb {
+  umbrella header "Pods-NyNakonectoAmb-umbrella.h"
+
+  export *
+  module * { export * }
+}

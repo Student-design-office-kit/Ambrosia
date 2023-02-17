@@ -1,0 +1,45 @@
+PODS:
+  - Alamofire (5.6.1)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
+  - XLActionController (5.1.0):
+    - XLActionController/Core (= 5.1.0)
+  - XLActionController/Core (5.1.0)
+  - XLActionController/Periscope (5.1.0):
+    - XLActionController/Core
+  - XLActionController/Skype (5.1.0):
+    - XLActionController/Core
+  - XLActionController/Spotify (5.1.0):
+    - XLActionController/Core
+  - XLActionController/Tweetbot (5.1.0):
+    - XLActionController/Core
+  - XLActionController/Twitter (5.1.0):
+    - XLActionController/Core
+  - XLActionController/Youtube (5.1.0):
+    - XLActionController/Core
+
+DEPENDENCIES:
+  - Alamofire (~> 5)
+  - AlamofireImage
+  - XLActionController
+  - XLActionController/Periscope
+  - XLActionController/Skype
+  - XLActionController/Spotify
+  - XLActionController/Tweetbot
+  - XLActionController/Twitter
+  - XLActionController/Youtube
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AlamofireImage
+    - XLActionController
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
+  XLActionController: 24140d835ab9e260270711afebc5efabebe9d392
+
+PODFILE CHECKSUM: 31f0cd53a44a3bd2f73b5010904532863853860f
+
+COCOAPODS: 1.11.3
