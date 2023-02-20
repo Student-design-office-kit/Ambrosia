@@ -46,7 +46,7 @@ class GeoAcceptionViewController: UIViewController, CLLocationManagerDelegate, A
             case .success(let markers):
                 for marker in markers {
                     var mesto: CLLocationCoordinate2D {
-                        let strings:[String] = marker.gps.components(separatedBy: ", ")
+                        let strings:[String] = marker.gps.components(separatedBy: ",")
                         let lattitude: Double = Double(strings[0]) ?? 12
                         let longitutde = Double(strings[1]) ?? 12
                         return CLLocationCoordinate2D(latitude: lattitude, longitude: longitutde)
